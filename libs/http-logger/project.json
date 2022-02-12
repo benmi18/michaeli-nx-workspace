@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/http-logger",
+  "sourceRoot": "libs/http-logger/src",
+  "prefix": "michaeli",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/http-logger"],
+      "options": {
+        "jestConfig": "libs/http-logger/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/http-logger/src/**/*.ts",
+          "libs/http-logger/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

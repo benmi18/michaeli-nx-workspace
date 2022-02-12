@@ -4,6 +4,7 @@
     "demo-app": "apps/demo-app-1",
     "demo-app-e2e": "apps/demo-app-e2e",
     "demo-app-two": "apps/demo-app-two",
-    "demo-app-two-e2e": "apps/demo-app-two-e2e"
+    "demo-app-two-e2e": "apps/demo-app-two-e2e",
+    "http-logger": "libs/http-logger"
   }
 }
